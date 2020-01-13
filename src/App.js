@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Jumbo from "./Jumbo"
+
+import MediaCenter from './comps/MediaCenter'
+import Ampnado from './comps/Ampnado'
+import AlphaTree from "./comps/AlphaTree"
+import About from "./comps/About"
+import Tech from "./comps/TechUsed"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Jumbo />
+      <MediaCenter />
+      <Ampnado />
+      <AlphaTree />
+      <About />
+      <Tech />
+
+      
+
+
+     </div>
   );
 }
 
