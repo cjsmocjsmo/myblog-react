@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Jumbo from "./Jumbo"
-
 import MediaCenter from './comps/MediaCenter'
 import Ampnado from './comps/Ampnado'
 import AlphaTree from "./comps/AlphaTree"
@@ -17,11 +16,7 @@ function App() {
       <AlphaTree />
       <About />
       <Tech />
-
-      
-
-
-     </div>
+    </div>
   );
 }
 

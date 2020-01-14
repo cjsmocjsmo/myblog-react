@@ -14,7 +14,11 @@ function Jumbo () {
         <div id={"home"}>
             <Jumbotron style={JumboStyle}>
                 <h1 className={"display-4"} >Charlie Smotherman</h1>
-                <a href={ Resume } type="button" className="btn btn-danger btn-xlg ">HIRE ME</a>
+                <a
+                    href={ Resume }
+                    type="button" 
+                    className="btn btn-danger btn-xlg ">HIRE ME
+                </a>
             </Jumbotron>
         </div>
     )

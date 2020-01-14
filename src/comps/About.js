@@ -44,7 +44,7 @@ garbage out and get non-maintained packages removed.  During this time I was int
 to Python, like any new programer I was having a hard time thinking of a project that
 would help teach me.  So I thought why not reproduce Ampache except with a different
 technology stack like HTML5, CSS, JQuery, JQuery-Mobile, MongoDB, python Tornado and make
-it into an SPA.  And so Ampnado was born (see projects page).`
+it into an SPA.  And so Ampnado was born.`
 
 function About() {
     return (
@@ -57,20 +57,21 @@ function About() {
                     <a href="https://Ampache.org">Ampache.</a>
                 </p>
             </div>
-            <UncontrolledCollapse toggler="togglethree">
-                <p className="type-center p-2">
-                { About3Txt }
-                </p>
-                <p className="type-center p-2"> 
-                { About4Txt }
-                <a href="https://launchpad.net/ubuntu">Ubuntu</a>/<a href="https://launchpad.net/">Launchpad</a>
-                { About5Txt }
-                </p>
-                <p className="type-center p-2">
-                { About6Txt }
-                </p>
-            </UncontrolledCollapse>
-            
+            <div id="about" className="container container-fluid pt-2" >
+                <UncontrolledCollapse toggler="togglethree">
+                    <p className="type-center p-2">
+                    { About3Txt }
+                    </p>
+                    <p className="type-center p-2"> 
+                    { About4Txt }
+                    <a href="https://launchpad.net/ubuntu">Ubuntu</a>/<a href="https://launchpad.net/">Launchpad</a>
+                    { About5Txt }
+                    </p>
+                    <p className="type-center p-2">
+                    { About6Txt }
+                    </p>
+                </UncontrolledCollapse>
+            </div>
             <div className="wrapper text-center pb-3">
                 <Button id="togglethree" color="primary" size="lg">Continue Reading</Button>
             </div>

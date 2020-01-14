@@ -4,16 +4,15 @@ import { Player } from 'video-react';
 import AmpVid from './images/Ampnadovid.webm'
 import Nasa from './images/ampnado.png'
 
-
 const AmpnadoTxt = ` is a mp3 organizer and music server.  Ampnado
 catagorizes your music by Album, Artist, Song, along with playlist
 creation and playback.  Ampnado is heavely dependent on id3 tags for
 metadata and album cover art. Ampnado has been written 
 in python and utilizes the  `
 
-const AmpTwo =  ` MongoDB database for data persistence. HTML, CSS, JQuery,
-JQuery-Mobile were used for the front-end.  I have Ampnado running on
-a Raspberry Pi with a 128GB microSD card.`
+const AmpTwo =  ` while utilizes MongoDB database for data persistence.
+HTML, CSS, JQuery, JQuery-Mobile were used for the front-end.  I have
+Ampnado running on a Raspberry Pi with a 8TB HHD hat.`
 
 function Ampnado() {
     return (
@@ -23,10 +22,6 @@ function Ampnado() {
             <div className="mx-auto text-center" style={{width: "420px"}}>
                 <Player playsInline poster={ Nasa } src={ AmpVid } />
             </div>
-            
-
-
-            
             <p className="type-center pt-2">
                 <a href="https://github.com/cjsmocjsmo/ampnado">Ampnado</a>
                 { AmpnadoTxt }

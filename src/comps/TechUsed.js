@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, Row, Col } from 'reactstrap'
+import { Container } from 'reactstrap'
 import HTML from './images/HTML_Logo.png'
 import BootStrap from './images/bootstrap.png'
 import GoLang from './images/golang2.jpg'
@@ -20,7 +20,6 @@ function TechUsed () {
             <div>
                 <h3 style={{margin: "10px"}}>Ampnado</h3>
                 <Container>
-                    
                     <a href="https://html.spec.whatwg.org/multipage/">
                         <img class="ampnadoIcons" src={ HTML } alt=""></img>
                     </a>
