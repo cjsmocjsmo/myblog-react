@@ -12,6 +12,7 @@ import JQMobile from "./images/jquery_mobile.png"
 import PYthon from "./images/python-logo.png"
 import MongoDB from "./images/mongodb.png"
 import MyReact from "./images/react.png"
+import AWS from './images/aws.png'
 
 function TechUsed () {
     return (
@@ -101,8 +102,8 @@ function TechUsed () {
                     <a href="https://www.docker.com/">
                         <img src={ Docker } alt=""></img>
                     </a>
-                    <a href="https://www.heroku.com/home">
-                        <img src={ Heroku } alt=""></img>
+                    <a href="https://aws.amazon.com/">
+                        <img src={ AWS } alt=""></img>
                     </a>
                     <a href="https://reactjs.org/">
                         <img src={ MyReact } alt=""></img>
